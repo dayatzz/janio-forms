@@ -12,3 +12,39 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.banner { 
+  background: linear-gradient(175deg,#000,#000028 74%)!important;
+}
+.banner img {
+  width: 360px;
+  max-width: 80%;
+}
+.banner-container .divider {
+  width: 0;
+  border-top: 6vh solid #000028;
+  border-left: 50vw solid transparent;
+  border-right: 50vw solid transparent;
+  border-bottom: 0;
+  background: #fff;
+  background-color: #fff;
+  background-color: transparent;
+}
+.janio-card {
+  margin-bottom: 32px;
+}
+.btn-submit {
+  background-color: rgba(4, 0, 41, 1);
+  border-radius: 20px;
+  width: 120px;
+  text-align: center;
+  position: fixed;
+  bottom: 20px;
+}
+.small, small {
+  font-size: 85% !important;
+}
+
+.text-error {
+  font-size: 11px;
+}
